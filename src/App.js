@@ -41,7 +41,6 @@ const App = () => {
           handleAddNote={addNote}
           handleDeleteNote={deleteNote}
         />
-        
       </div>
     </div>
   );
