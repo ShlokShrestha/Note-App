@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdSearch } from 'react-icons/md'
-import '../assets/style.css';
+import '../assets/style.scss';
 const Search = ({handleSearchText}) => {
   return (
     <div className='search'>

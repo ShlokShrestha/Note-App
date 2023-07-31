@@ -1,5 +1,5 @@
 import React from "react";
-import '../assets/style.css';
+import '../assets/style.scss';
 const Header = ({handleMode}) => {
 const handleModeValue=()=>{handleMode(prevMode=> !prevMode)};
   return (

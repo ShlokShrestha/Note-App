@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../assets/style.css';
+import '../assets/style.scss';
 
 const AddNote = ({handleAddNote}) => {
   const [addNoteText, setAddNoteText] = useState("");

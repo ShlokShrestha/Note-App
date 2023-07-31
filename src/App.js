@@ -4,8 +4,8 @@ import Data from "./Data/Data";
 import { nanoid } from "nanoid";
 import Search from "./components/Search";
 import Header from "./components/Header";
+import "./index.scss"
 
-import "./assets/style.css";
 const App = () => {
   const [noteData, setNoteData] = useState(Data);
 
